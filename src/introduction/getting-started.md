@@ -51,6 +51,4 @@ You should see something like:
 aws-cli/2.x.x …
 ```
 
-## Next
-
-The beginner tier (deploy a static site to S3 + CloudFront) ships next. Until then, this page is the entry point.
+**Next** → [Beginner tier](../beginner/)

@@ -21,5 +21,8 @@
   "homepage": "https://github.com/alibaihaqi/aws-docs#readme",
   "devDependencies": {
     "vitepress": "1.6.4"
+  },
+  "dependencies": {
+    "vue": "^3.5.0"
   }
 }
