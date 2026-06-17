@@ -131,3 +131,9 @@ dist
 
 .vitepress/cache
 .vitepress/dist
+
+# macOS / iCloud Drive sync conflict duplicates
+* 2
+* 2.*
+*\ 2/
+

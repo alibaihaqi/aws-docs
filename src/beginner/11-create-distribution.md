@@ -35,8 +35,6 @@ CloudFront's create-distribution CLI form takes 30+ fields. The console fills se
 
 You land on the distribution detail page. The **Status** column reads `InProgress`. The **Distribution domain name** column shows something like `d1abc23def4ghi.cloudfront.net` — that is your future public URL.
 
-<!-- // TODO screenshot: CloudFront "Create distribution" form with Origin domain + Default root object highlighted -->
-
 ## Save the distribution domain
 
 From the terminal, grab the domain so the next page can curl it:
