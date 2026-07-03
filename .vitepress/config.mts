@@ -25,7 +25,8 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Introduction', link: '/introduction/' },
-      { text: 'Beginner', link: '/beginner/' }
+      { text: 'Beginner', link: '/beginner/' },
+      { text: 'Intermediate', link: '/intermediate/' }
     ],
 
     search: {
@@ -62,6 +63,19 @@ export default defineConfig({
           { text: '11 Create a CloudFront distribution', link: '/beginner/11-create-distribution' },
           { text: '12 Wait for deploy', link: '/beginner/12-wait-for-deploy' },
           { text: '13 Verify the public URL', link: '/beginner/13-verify-and-finish' }
+        ]
+      },
+      {
+        text: 'Intermediate',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/intermediate/' },
+          { text: '01 Why go dynamic', link: '/intermediate/01-why-dynamic' },
+          { text: '02 The Lambda function', link: '/intermediate/02-lambda-function' },
+          { text: '03 The HTTP API', link: '/intermediate/03-http-api' },
+          { text: '04 Fetch from the page', link: '/intermediate/04-fetch-from-page' },
+          { text: '05 Cache invalidation', link: '/intermediate/05-cache-invalidation' },
+          { text: '06 Safety and placeholders', link: '/intermediate/06-safety-and-placeholders' }
         ]
       }
     ],

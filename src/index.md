@@ -20,4 +20,10 @@ features:
     details: Every idiom is defined inline before it is used. No prior AWS experience assumed.
   - title: Ends in something runnable
     details: Each tier closes with a deployable artifact you can show off.
+  - title: Beginner
+    details: Static site on S3 + CloudFront. Build and deploy a public HTTPS page.
+    link: /beginner/
+  - title: Intermediate
+    details: Add a Lambda + API Gateway backend. Fetch dynamic data from the page and invalidate the CloudFront cache.
+    link: /intermediate/
 ---
