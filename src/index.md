@@ -26,4 +26,7 @@ features:
   - title: Intermediate
     details: Add a Lambda + API Gateway backend. Fetch dynamic data from the page and invalidate the CloudFront cache.
     link: /intermediate/
+  - title: Advanced
+    details: DynamoDB persistence, Cognito auth, Lambda authorizer, CDK, SAM, CI/CD, CloudWatch alarms, and production hardening.
+    link: /advanced/
 ---

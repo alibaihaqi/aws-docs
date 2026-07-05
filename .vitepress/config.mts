@@ -26,7 +26,8 @@ export default defineConfig({
     nav: [
       { text: 'Introduction', link: '/introduction/' },
       { text: 'Beginner', link: '/beginner/' },
-      { text: 'Intermediate', link: '/intermediate/' }
+      { text: 'Intermediate', link: '/intermediate/' },
+      { text: 'Advanced', link: '/advanced/' }
     ],
 
     search: {
@@ -76,6 +77,23 @@ export default defineConfig({
           { text: '04 Fetch from the page', link: '/intermediate/04-fetch-from-page' },
           { text: '05 Cache invalidation', link: '/intermediate/05-cache-invalidation' },
           { text: '06 Safety and placeholders', link: '/intermediate/06-safety-and-placeholders' }
+        ]
+      },
+      {
+        text: 'Advanced',
+        collapsed: false,
+        items: [
+          { text: 'Overview', link: '/advanced/' },
+          { text: '01 Why DynamoDB', link: '/advanced/01-why-dynamodb' },
+          { text: '02 Create a DynamoDB table', link: '/advanced/02-dynamodb-table' },
+          { text: '03 Cognito auth', link: '/advanced/03-cognito-auth' },
+          { text: '04 Lambda authorizer', link: '/advanced/04-auth-lambda-authorizer' },
+          { text: '05 IaC with CDK', link: '/advanced/05-iac-with-cdk' },
+          { text: '06 SAM and local testing', link: '/advanced/06-sam-and-local-testing' },
+          { text: '07 CloudFormation outputs', link: '/advanced/07-cloudformation-outputs' },
+          { text: '08 CI/CD with CodePipeline', link: '/advanced/08-ci-cd-codepipeline' },
+          { text: '09 CloudWatch logs and alarms', link: '/advanced/09-cloudwatch-logs-alarms' },
+          { text: '10 Production hardening', link: '/advanced/10-production-hardening' }
         ]
       }
     ],

@@ -3,6 +3,11 @@
 All notable changes to the AWS learning-docs site. Newest first.
 Format loosely follows [Keep a Changelog](https://keepachangelog.com/).
 
+## 2026-07-05 — Advanced tier
+
+### Added
+- **Advanced tier** (`src/advanced/`, 10 pages + index): extends the Lambda + API Gateway into a full serverless stack — DynamoDB persistence, Cognito auth with Lambda authorizer, AWS CDK for IaC, SAM local testing, CodePipeline CI/CD, CloudWatch logging/alarms, and production hardening (WAF, rate limiting). Wired into the sidebar, nav, and home feature card.
+
 ## 2026-07-04 — Intermediate tier + CI
 
 ### Added
